@@ -40,13 +40,13 @@
 
 ---
 
-## What it does
+### What it does
 Detects aftermarket parts on vehicles entering a wash tunnel and flags them to the operator before the vehicle reaches retractable equipment.
 
-##Why it matters
+### Why it matters
 Retracts depend on someone noticing in time. Missed calls are the main source of avoidable damage in a tunnel.
 
-## How the decision works  
+### How the decision works  
 The operator confirms every detection. Nothing retracts automatically. We automate the watching; the judgment stays with the operator.
 
 <br>
