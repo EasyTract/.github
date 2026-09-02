@@ -40,23 +40,14 @@
 
 ---
 
-### The problem
+## What it does
+Detects aftermarket parts on vehicles entering a wash tunnel and flags them to the operator before the vehicle reaches retractable equipment.
 
-A tunnel moves a vehicle every few seconds, all day, in every kind of weather. Somewhere in that line is a vehicle carrying something the tunnel was never built to touch.
+##Why it matters
+Retracts depend on someone noticing in time. Missed calls are the main source of avoidable damage in a tunnel.
 
-People catch it. People do not catch it *consistently*. Consistency is the whole game.
-
-### The approach
-
-A camera at the entry. A model that watches every pass, holds each vehicle as a single unit through the tunnel, and surfaces what it sees before that vehicle reaches anything that moves.
-
-Then it hands the decision to a person.
-
-### Human in the loop
-
-> **Nothing fires without an operator confirming it.**
->
-> That isn't a limitation we plan to engineer away — it's the design. The system's job is to make sure the operator is never the first one to notice, not to replace their judgment.
+## How the decision works  
+The operator confirms every detection. Nothing retracts automatically. We automate the watching; the judgment stays with the operator.
 
 <br>
 
