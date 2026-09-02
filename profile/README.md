@@ -54,7 +54,7 @@ The operator confirms every detection. Nothing retracts automatically. We automa
 <div align="center">
 
 <sub>Repositories are private while patent questions are open.<br>
-Operators, investors, and the pilot-curious — we'd like to hear from you.</sub>
+Operators, investors, and the pilot-curious, contact us, we'd like to hear from you.</sub>
 
 <br>
 <br>
