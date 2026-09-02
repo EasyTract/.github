@@ -13,7 +13,7 @@
 **AI vision for tunnel car washes.**
 
 <sub>EasyTract is using AI vision to automate aftermarket part detection in car wash tunnels before contact, increasing throughput and retract consistency while reducing vehicle damage.
-sub>
+<sub>
 
 <br>
 
