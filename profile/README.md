@@ -4,23 +4,22 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-  <img alt="easyTract" src="assets/logo.svg" width="330">
+  <img alt="EasyTract" src="assets/logo.svg" width="330">
 </picture>
 
 <br>
 <br>
 
-**AI vision for tunnel car washes.**
+**Catch missing documentation before the adjuster does.**
 
-<sub>EasyTract is using AI vision to automate aftermarket part detection in car wash tunnels before contact, increasing throughput and retract consistency while reducing vehicle damage.
-<sub>
+<sub>EasyTract checks water mitigation jobs daily and flags missing photos, moisture readings, and equipment logs while crews can still go back.</sub>
 
 <br>
+<br>
 
-![](https://img.shields.io/badge/computer_vision-1668E0?style=flat-square)
-![](https://img.shields.io/badge/on--site_inference-1668E0?style=flat-square)
-![](https://img.shields.io/badge/human_in_the_loop-1668E0?style=flat-square)
-![](https://img.shields.io/badge/status-pre--pilot-141414?style=flat-square)
+![](https://img.shields.io/badge/water_mitigation-0F766E?style=flat-square)
+![](https://img.shields.io/badge/daily_job_review-0F766E?style=flat-square)
+![](https://img.shields.io/badge/works_with-Encircle-0B1B33?style=flat-square)
 
 <br>
 
@@ -31,35 +30,55 @@
 <div align="center">
 <br>
 
-`DETECT` → `CONFIRM` → `RETRACT`
+`READ` → `CHECK` → `FLAG`
 
-<sub>Milliseconds · One glance · In time</sub>
+<sub>Every active job · Every day · Same day</sub>
 
 <br>
 </div>
 
 ---
 
-### What it does
-Detects aftermarket parts on vehicles entering a wash tunnel and flags them to the operator before the vehicle reaches retractable equipment.
+### The problem
+Gaps in the job file show up when it's too late to fix them. A skipped photo or reading usually goes unnoticed until the adjuster asks, after drying is finished and the equipment is gone.
 
-### Why it matters
-Retracts depend on someone noticing in time. Missed calls are the main source of avoidable damage in a tunnel.
+### How it works
+1. **Connects to Encircle.** Reads jobs from Encircle. Techs keep documenting the way they do now.
+2. **Reviews every active job, every day.** Checks each job for the photos, readings, and logs expected for that day of drying.
+3. **Flags gaps the same day.** Missing items are flagged while the crew can still go back.
 
-### How the decision works  
-The operator confirms every detection. Nothing retracts automatically. We automate the watching; the judgment stays with the operator.
+### What a flag looks like
+
+<sub>Water loss, drying day 3 · Example, not customer data</sub>
+
+| Room      | Day 1 | Day 2 | Day 3 |
+| :-------- | :---: | :---: | :---: |
+| Kitchen   | ✓     | ✓     | ✓     |
+| Hallway   | ✓     | ✓     | **missing** |
+| Bedroom 1 | ✓     | ✓     | **missing** |
+| Bathroom  | ✓     | ✓     | ✓     |
+
+> 2 rooms are missing day 3 readings. Flagged for the crew on site today.
+
+### Who it's for
+- **Owners.** Missing proof of work means cut line items and files stuck in review, which delays payment.
+- **Mitigation managers.** See gaps on active jobs before the job closes.
+- **Office staff.** Less time combing through files and calling techs, and fewer things slip through.
 
 <br>
 
 <div align="center">
 
-<sub>Repositories are private while patent questions are open.<br>
-Operators, investors, and the pilot-curious, contact us, we'd like to hear from you.</sub>
+**[Book a 15-minute call](https://cal.com/noah-shewell-7ss6xf/15min)** · [easytractai.com](https://easytractai.com) · [LinkedIn](https://www.linkedin.com/company/easytract-technologies)
 
 <br>
+
+<sub>**Grant Gatch**, customers and partnerships · [grant@easytractai.com](mailto:grant@easytractai.com)<br>
+**Noah Shewell**, product and engineering · [noah@easytractai.com](mailto:noah@easytractai.com)</sub>
+
 <br>
 
-<sub>**Noah Shewell** · **Grant Gatch** — Salt Lake City, Utah</sub>
+<sub>Salt Lake City, Utah · University of Utah Sandbox accelerator</sub>
 
 <br>
 
